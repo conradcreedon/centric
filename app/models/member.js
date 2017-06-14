@@ -7,6 +7,7 @@ export default DS.Model.extend({
 	age: DS.attr('number'),
 	prestige_level: DS.attr('number'),
 	location: DS.attr('string'),
+	photoUrl: DS.attr('string'),
 	verified: DS.attr('boolean', { defaultValue: false }),
   createdAt: DS.attr('date', {
     defaultValue() { return new Date(); }

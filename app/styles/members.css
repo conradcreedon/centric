@@ -16,6 +16,14 @@ h1 {
 	font-size: 5em;
 }
 
+img {
+    width: 100%;
+}
+div {
+    border: 1px solid black;
+    height: 100px;
+}
+
 .content{
 	padding-top: 25%;
 	text-align: center;
