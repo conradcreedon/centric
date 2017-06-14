@@ -1,11 +1,22 @@
 <html>
 <head>
-	<title>Centric Gaming</title>
+	<title>Squad Members</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
+
 <body>
+		<div class="jumbotron">
+    <h1><i class="fa fa-camera-retro"></i></h1> <h1>The Image Gallery </h1>
+    <p>A bunch of beautiful images that I didn't take(except for the first one!)</p> 
+    {{#link-to 'members'}} Members {{/link-to}}
+  	</div>
+  {{outlet}}
 
-	<h1>Centric Gaming</h1>
-
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 </html>
